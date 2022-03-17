@@ -85,6 +85,10 @@ body {
   margin: auto;
   margin-top: 5vh;
   margin-bottom: 5vh;
+  &-title {
+    margin-bottom: 2.5vh;
+    font-size: 2rem
+  }
   &-list{
     @extend %align-center;
     justify-content: space-around;

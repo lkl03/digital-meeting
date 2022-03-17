@@ -8,7 +8,7 @@ const Square = (props) => {
         <div className="square-img">
             <Image src={props.img} width='200px' height='200px' alt={props.title}></Image>
         </div>
-        <Link href="/">
+        <Link href={`/productos/${props.id}`}>
             <div className="square-info">
                 <a>{props.title}</a>
             </div>
