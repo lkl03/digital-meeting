@@ -6,9 +6,9 @@ const Square = (props) => {
   return (
     <div className="square">
         <div className="square-img">
-            <Image src={props.img} width='200px' height='200px' alt={props.title}></Image>
+            <img src={`/products/${props.img}`} width='200px' height='200px' alt={props.title}></img>
         </div>
-        <Link href={`/productos/${props.id}`}>
+        <Link href={`/productos/${props.category}/${props.id}`}>
             <div className="square-info">
                 <a>{props.title}</a>
             </div>

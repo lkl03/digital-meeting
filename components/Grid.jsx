@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Square from './Square'
-import {Iphone, Macbooks, Xiaomi} from '../products/Iphone'
+import {Iphone, Apple, Xiaomi} from '../products/Products'
 
 const Grid = () => {
     
@@ -42,13 +42,14 @@ const Grid = () => {
                                     alt={item.title}
                                     title={item.title}
                                     id={item.id}
+                                    category={item.category}
                                 />
                             </>
                         )
                     })}
                 </div>
                 <div className="grid-list" style={count === 1 || count === -2 ? { display: 'flex' } : { display: 'none' }}>
-                    {Macbooks.map((item, index) => {
+                    {Apple.map((item, index) => {
                         return (
                             <>
                                 <Square
@@ -56,6 +57,8 @@ const Grid = () => {
                                     img={item.img}
                                     alt={item.title}
                                     title={item.title}
+                                    id={item.id}
+                                    category={item.category}
                                 />
                             </>
                         )
@@ -70,6 +73,8 @@ const Grid = () => {
                                     img={item.img}
                                     alt={item.title}
                                     title={item.title}
+                                    id={item.id}
+                                    category={item.category}
                                 />
                             </>
                         )
