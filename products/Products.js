@@ -11,77 +11,77 @@ export const Iphone = [
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'iphone',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'iphone',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'iphone',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'iphone',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'iphone',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'iphone',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'iphone',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'iphone',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'iphone',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'iphone',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'iphone',
@@ -93,84 +93,84 @@ export const Iphone = [
 export const Apple = [
 
     {
-        img: '/products/img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal',
         id: 'giliberty',
         category: 'apple',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'apple',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'apple',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'apple',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'apple',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'apple',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'apple',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'apple',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'apple',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'apple',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'apple',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'apple',
@@ -182,84 +182,84 @@ export const Apple = [
 export const Xiaomi = [
 
     {
-        img: '/products/img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Titanio',
         id: 'giliberty',
         category: 'xiaomi',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'xiaomi',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'xiaomi',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'xiaomi',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'xiaomi',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'xiaomi',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'xiaomi',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'xiaomi',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'xiaomi',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'xiaomi',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'xiaomi',
     },
 
     {
-        img: '/../img/Giliberty.JPG',
+        img: 'img/Giliberty.jpg',
         title: 'Metal Giliberty',
         id: 'giliberty',
         category: 'xiaomi',

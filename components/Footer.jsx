@@ -2,14 +2,19 @@ import React from 'react'
 import Link from 'next/link'
 import { FaInstagram, FaFacebook, FaWhatsapp } from 'react-icons/fa'
 
-const Header = () => {
+const Footer = () => {
   return (
-      <div className="header">
-        <div className="header-container">
-          <div className="header_logo">
-            <p>Logo</p>
+      <div className="footer">
+        <div className="footer-container">
+          <div className="footer_text">
+              <ul>
+                <li>Envíos a domicilio por moto en el día</li>
+                <li>Productos nuevos originales en caja sellada</li>
+                <li>Garantía oficial de <strong>Apple</strong> por 1 año en todos sus productos</li>
+                <li>© 2022 - Digital Meeting</li>
+              </ul>
           </div>
-          <div className="header_buttons">
+          <div className="footer_buttons">
             <Link href='https://www.instagram.com/digital_meeting/'>
               <a><FaInstagram/></a>
             </Link>
@@ -25,4 +30,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Footer

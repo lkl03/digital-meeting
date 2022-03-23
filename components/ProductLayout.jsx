@@ -1,19 +1,25 @@
 import React, {useState} from 'react'
+import Link from 'next/link'
 import Image from 'next/image'
+import { FaArrowLeft } from 'react-icons/fa'
 
 const ProductLayout = (props) => {
     
     const [fullSize, setFullSize] = useState(false)
+    const [specifics, setSpecifics] = useState(false)
   
     return (
     <>
         <div className="product_title">
+            <Link href="/">
+                <a><FaArrowLeft className='product_arrow' /></a>
+            </Link>
             <h1>{props.title}</h1>
         </div>
         <div className="product_show">
             <div className="product_show-left">
-                <div className="product_show-left--content" onClick={() => setFullSize(!fullSize)}>
-                    <img className={fullSize ? 'on' : 'off'} src={`/products/${props.img}`} alt={props.title}></img>
+                <div className={fullSize ? 'product_show-left--content on' : 'product_show-left--content'} onClick={() => setFullSize(!fullSize)}>
+                    <img className={fullSize ? 'on' : ''} src={`/products/${props.img}`} alt={props.title}></img>
                 </div>
             </div>
             <div className="product_show-right">
@@ -22,7 +28,12 @@ const ProductLayout = (props) => {
                     <p>{props.info}</p>
                     <p><span>Colores disponibles: </span>{props.colors}</p>
                     <p><span>Precio: </span>${props.price}</p>
-                    <button>Ver especificaciones</button>
+                    <button onClick={() => setSpecifics(!specifics)}>Ver especificaciones</button>
+                    <div className={specifics ? 'product_show-right--content_especificaciones on' : 'product_show-right--content_especificaciones'} onClick={() => setSpecifics(!specifics)}>
+                        <div>
+                            <p>{props.info}</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
