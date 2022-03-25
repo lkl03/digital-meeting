@@ -6,7 +6,7 @@ export const Iphone = [
         id: 'giliberty',
         category: 'iphone',
         info: 'lorem',
-        price: '49.99',
+        price: 780,
         colors: 'red, white, green',
     },
 
