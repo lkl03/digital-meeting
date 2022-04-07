@@ -140,6 +140,9 @@ body {
     &:hover{
       color: $dark;
     }
+    @include mobile {
+      top: 12vh;
+    }
   }
   &_title{
     margin: 1rem;
@@ -150,6 +153,7 @@ body {
       color: $secondary;
       @include mobile {
         font-size: 3rem;
+        margin-top: 10vh;
       }
     }
   }
@@ -290,7 +294,7 @@ body {
   &_priceconverter{
     @extend %align-center;
     flex-direction: column;
-    margin: 10vh auto auto auto;
+    margin: 10vh auto 12.2vh auto;
     h3{
       font-size: 2rem;
       margin-bottom: 1rem;

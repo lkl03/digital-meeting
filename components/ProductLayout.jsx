@@ -30,7 +30,7 @@ const ProductLayout = (props) => {
                     <p>{props.info}</p>
                     <p><span>Colores disponibles: </span>{props.colors}</p>
                     <p><span>Precio: </span>${props.price}</p>
-                    <p>Valor en pesos: ${202 * props.price}</p>
+                    <p>Valor en pesos: ${props.dolar * props.price}</p>
                     <button onClick={() => setSpecifics(!specifics)}>Ver especificaciones</button>
                     <div className={specifics ? 'product_show-right--content_especificaciones on' : 'product_show-right--content_especificaciones'} onClick={() => setSpecifics(!specifics)}>
                         <div>

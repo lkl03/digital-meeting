@@ -4,18 +4,18 @@ import { Apple } from '../../../../products/Products'
 
 export async function getServerSideProps() {
   // Fetch data from external API
-  const res = await fetch(`https://api.bluelytics.com.ar/v2/latest`)
-  const data = await res.json()
-  console.log(data)
-
+  const data = await fetch(`https://api.bluelytics.com.ar/v2/latest`).then(
+    (res) => res.json()
+  )
   // Pass data to the page via props
   return { 
-    props: { data }
+    props: { data, }
   }
 
 }
 const Post = (props, data) => {
-  console.log(data)
+  console.log(props.data.blue.value_sell)
+  const value = props.data.blue.value_sell
   const router = useRouter()
   const load = Apple.find((props) => props.id === router.query.id);
 
@@ -23,7 +23,7 @@ const Post = (props, data) => {
   return (
     <>
       <Header />
-      <h1>Product: {data.anime}</h1>-
+      <h1>Product: {value}</h1>-
     </>
   )
 }
