@@ -1,14 +1,10 @@
 import { useState, useEffect } from "react";
 import Square from './Square'
-import { db } from '../firebase';
+import { db } from '../firebase.js';
 import { collection, onSnapshot, getDocs, orderBy, query, where } from "firebase/firestore"
 import {value} from '../pages/index'
 import Link from "next/link";
 import { FaWhatsapp, FaFacebook, FaInstagram } from 'react-icons/fa'
-import {  } from "firebase/firestore";
-
-
-
 
 const Grid = ({dolar}) => {
     const [products, setProducts] = useState([])
