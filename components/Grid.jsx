@@ -1,10 +1,27 @@
 import { useState, useEffect } from "react";
 import Square from './Square'
-import { db } from '../firebase.js';
+//import { db } from '../firebase.js';
 import { collection, onSnapshot, getDocs, orderBy, query, where } from "firebase/firestore"
 import {value} from '../pages/index'
 import Link from "next/link";
 import { FaWhatsapp, FaFacebook, FaInstagram } from 'react-icons/fa'
+
+import { initializeApp } from "firebase/app";
+import {getFirestore} from "firebase/firestore"
+
+const firebaseConfig = {
+    apiKey: "AIzaSyDIQY3athH52-6bfUIGAA-RWxArJgezeI8",
+    authDomain: "iphone-access.firebaseapp.com",
+    projectId: "iphone-access",
+    storageBucket: "iphone-access.appspot.com",
+    messagingSenderId: "1079020891062",
+    appId: "1:1079020891062:web:47f384ad4a7fcb1dcbaf17",
+    measurementId: "G-2WVL11YKN6"
+};
+
+const app = initializeApp(firebaseConfig);
+
+const db = getFirestore(app);
 
 const Grid = ({dolar}) => {
     const [products, setProducts] = useState([])
